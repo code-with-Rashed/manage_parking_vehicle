@@ -1,0 +1,29 @@
+#vehicle_number_box {
+    display: none;
+}
+
+#owner_name_box {
+    display: none;
+}
+
+#owner_phone_number_box {
+    display: none;
+}
+
+.dtime {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dtime b {
+    font-size: small;
+}
+
+.total th,
+td {
+    padding: 5px 0;
+}
+
+.total th {
+    text-align: right;
+}

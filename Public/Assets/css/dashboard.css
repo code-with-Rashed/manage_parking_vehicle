@@ -1,0 +1,46 @@
+.content-box {
+    width: 94%;
+    margin: auto;
+    background-color: #fff;
+}
+.overview-box{
+    width:100%;
+    display: flex;
+}
+.overview-card{
+    border-radius: 0.25rem;
+    flex-basis:25%;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 8px;
+}
+.overview-card h5{
+    color:#fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
+.overview-card p{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color:#fff;
+}
+.c1{
+    background: linear-gradient(to right,#ff8177 0,#ff867a 0,#ff8c7f 21%,#f99185 52%,#cf556c 78%,#b12a5b 100%);
+}
+.c2{
+    background: linear-gradient(to right,#ff8177 0,#ff867a 0,#ff8c7f 21%,#f99185 52%,#cf556c 78%,#b12a5b 100%);
+}
+.c3{
+    background: linear-gradient(40deg,#ff6ec4,#7873f5);
+}
+.c4{
+    background: linear-gradient(40deg,#ffd86f,#fc6262);
+}
+@media (max-width:1000px) {
+    .overview-box{
+        flex-direction: column;
+    }
+}
