@@ -2,6 +2,15 @@
 
 use Management\Classes\Router;
 
+// Admin Routers
+use App\Controllers\AdminController;
+Router::get('/',[AdminController::class,'index']);
+Router::post('/login',[AdminController::class,'login']);
+Router::get('/logout',[AdminController::class,'logout']);
+Router::post("/profile/update",[AdminController::class,"update"]);
+Router::get("/profile",[AdminController::class,"profile"]);
+//--------------
+
 // Vehicle Category Routers 
 use App\Controllers\VehicleCategoryController;
 Router::get("/category",[VehicleCategoryController::class,"index"]);
