@@ -12,3 +12,7 @@ $MSDB_USERNAME = "root";
 $MSDB_PASSWORD = "";
 $MSDB_NAME = "vehicle";
 //--------------------------
+
+// set default timezone
+$DEFAULT_TIMEZONE = "Asia/Dhaka";
+//---------------------

@@ -14,3 +14,7 @@ define("MSDB_USERNAME", $MSDB_USERNAME);
 define("MSDB_PASSWORD", $MSDB_PASSWORD);
 define("MSDB_NAME", $MSDB_NAME);
 //---------------------------------
+
+// Set Default Timezone
+define("DEFAULT_TIMEZONE", $DEFAULT_TIMEZONE);
+//---------------------
