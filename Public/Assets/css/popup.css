@@ -52,4 +52,7 @@
     color: #fff;
     letter-spacing: 1px;
     text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    width:100%;
 }
