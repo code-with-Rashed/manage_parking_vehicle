@@ -11,6 +11,11 @@ Router::post("/profile/update", [AdminController::class, "update"]);
 Router::get("/profile", [AdminController::class, "profile"]);
 //--------------
 
+// Dashboard Routers
+use App\Controllers\DashboardController;
+Router::get("/dashboard",[DashboardController::class,"index"]);
+//------------------
+
 // Vehicle Category Routers 
 use App\Controllers\VehicleCategoryController;
 Router::get("/category", [VehicleCategoryController::class, "index"]);
