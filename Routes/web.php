@@ -32,3 +32,9 @@ Router::post("/add/new/vehicle", [IncomingVehiclesController::class, "insert"]);
 Router::post("/update/registered/vehicle", [IncomingVehiclesController::class, "update"]);
 Router::post("/incoming/vehicle/outgoing",[IncomingVehiclesController::class,"vehicle_outgoing"]);
 //-----------------
+
+// Outgoing Vehicle Routers
+use App\Controllers\OutgoingVehiclesController;
+Router::get("/outgoing/vehicle/list",[OutgoingVehiclesController::class,"index"]);
+Router::get("/view/outgoing/vehicle/details/{id}",[OutgoingVehiclesController::class,"view_outgoing_vehicle_details"]);
+//------------------------
