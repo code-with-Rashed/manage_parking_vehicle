@@ -1,22 +1,38 @@
 'use strict';
-const vehicle_number_box = document.getElementById("vehicle_number_box");
+
+const registration_number_box = document.getElementById("registration_number_box");
+const registration_number_input = document.getElementById("registration_number_input");
+
 const owner_name_box = document.getElementById("owner_name_box");
-const owner_phone_number_box = document.getElementById("owner_phone_number_box");
+const owner_name_input = document.getElementById("owner_name_input");
+
+const owner_contact_number_box = document.getElementById("owner_contact_number_box");
+const owner_contact_number_input = document.getElementById("owner_contact_number_input");
 
 function searchOption(option) {
-    if (option == "vehicle_number") {
+    if (option == "registration_number") {
         resetSearchOtion();
-        vehicle_number_box.style.display = 'block';
+        registration_number_box.style.display = 'block';
+        registration_number_input.required = true;
     } else if (option == "owner_name") {
         resetSearchOtion();
         owner_name_box.style.display = 'block';
-    } else if (option == "owner_phone_number") {
+        owner_name_input.required = true;
+    } else if (option == "owner_contact") {
         resetSearchOtion();
-        owner_phone_number_box.style.display = 'block';
+        owner_contact_number_box.style.display = 'block';
+        owner_contact_number_input.required = true;
+    } else {
+        resetSearchOtion();
     }
 }
 function resetSearchOtion() {
-    vehicle_number_box.style.display = 'none';
+    registration_number_input.required = false;
+    registration_number_box.style.display = 'none';
+
+    owner_name_input.required = false;
     owner_name_box.style.display = 'none';
-    owner_phone_number_box.style.display = 'none';
+
+    owner_contact_number_input.required = false;
+    owner_contact_number_box.style.display = 'none';
 }

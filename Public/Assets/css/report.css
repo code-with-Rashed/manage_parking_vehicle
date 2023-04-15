@@ -1,4 +1,4 @@
-#vehicle_number_box {
+#registration_number_box {
     display: none;
 }
 
@@ -6,7 +6,7 @@
     display: none;
 }
 
-#owner_phone_number_box {
+#owner_contact_number_box {
     display: none;
 }
 

@@ -43,3 +43,9 @@ use App\Controllers\OutgoingVehiclesController;
 Router::get("/outgoing/vehicle/list",[OutgoingVehiclesController::class,"index"]);
 Router::get("/view/outgoing/vehicle/details/{id}",[OutgoingVehiclesController::class,"view_outgoing_vehicle_details"]);
 //------------------------
+
+// Report Routers
+use App\Controllers\ReportController;
+Router::get("/search/vehicle/report",[ReportController::class,"index"]);
+Router::post("/search/report",[ReportController::class,"report"]);
+//---------------

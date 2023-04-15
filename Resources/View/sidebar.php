@@ -15,17 +15,17 @@
         </li>
         <li>
             <a href="<?php echo url("/incoming/vehicle/list");?>">
-                Manage in Vehicle
+                Manage Incoming Vehicle
             </a>
         </li>
         <li>
             <a href="<?php echo url("/outgoing/vehicle/list");?>">
-                Manage out Vehicle
+                Manage Outgoing Vehicle
             </a>
         </li>
         <li>
-            <a href="<?php echo url("/reports");?>">
-                Reports
+            <a href="<?php echo url("/search/vehicle/report");?>">
+                Vehicle Reports
             </a>
         </li>
     </ul>
