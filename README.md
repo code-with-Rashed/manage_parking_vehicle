@@ -4,8 +4,7 @@ Introducing Vehicle Parking Management - a complete management solution to manag
 
 ---
 
-
-[Demo of the vehicle parking management](https://code-with-rashed.github.io/vehicle_management_template)
+<a href="https://code-with-rashed.github.io/vehicle_management_template" target="_blank">Demo of the vehicle parking management</a>
 
 ---
 
