@@ -58,7 +58,7 @@ $DEFAULT_TIMEZONE = "Asia/Dhaka";
 - To open the terminal in your project directory.  
 then run this commands.  
 ```
-composser dump-autoload 
+composer dump-autoload 
 ```
 ```
 php Schema/schema-install.php
