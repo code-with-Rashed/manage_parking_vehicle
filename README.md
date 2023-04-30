@@ -21,15 +21,15 @@ Introducing Vehicle Parking Management - a complete management solution to manag
 ## Installation Proccess
 
 ---
-[] Step - 1  
+[ ] Step - 1  
 
 [Download the Project](https://github.com/code-with-Rashed/manage_parking_vehicle/archive/refs/heads/master.zip)  
 
-[] Step - 2  
+[ ] Step - 2  
 
 After downloading the Project archive, and uploading it to your server, the first thing you have to do is to create the DATABASE where system tables will be created. Lat's say, you create the database called <strong>manage_parking_vehicle</strong>  
 
-[] Step - 3  
+[ ] Step - 3  
 
 ### Set Environment Variables  
 - To open the Configuration/env.php file.  
