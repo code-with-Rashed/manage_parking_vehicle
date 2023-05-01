@@ -52,10 +52,16 @@ $MSDB_NAME = "vehicle";
 // set default timezone
 $DEFAULT_TIMEZONE = "Asia/Dhaka";
 //---------------------
-``` 
-- Insure your server is active.  
+```
+### Command line instruction 
+
+- Insure composer is installed in your computer.
+
+- Insure your server is activate. 
+
 - To open the terminal in your project directory.  
-then run this commands.  
+then run this commands.
+
 ```
 composer dump-autoload 
 ```
