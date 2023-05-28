@@ -19,11 +19,13 @@
     top: 30%;
     left: calc(50% - 200px);
 }
-.warning-message{
+
+.warning-message {
     font-weight: bold;
     text-align: center;
     line-height: 20px;
 }
+
 .popup-close {
     background-color: tomato;
     width: 30px;
@@ -54,5 +56,12 @@
     text-decoration: none;
     border: 0;
     cursor: pointer;
-    width:100%;
+    width: 100%;
+}
+
+@media (max-width:500px) {
+    .popup-box {
+        width: 80%;
+        left: calc(50% - 40%);
+    }
 }
