@@ -104,7 +104,7 @@ class AdminController
         $admin_model = new AdminModel();
         if ($admin_model->update($id, $data)) {
             Session::set('admin_name', $_POST['name']);
-            return redirect('/dashboard');
+            return redirect('/profile');
         }
     }
 }
