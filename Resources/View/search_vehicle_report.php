@@ -8,7 +8,6 @@
     <title>Search Vehicle Report</title>
     <link rel="stylesheet" href="<?php echo assets("css/style.css"); ?>">
     <link rel="stylesheet" href="<?php echo assets("css/vehicle-form-page.css"); ?>">
-    <link rel="stylesheet" href="<?php echo assets("css/vehicle-table-page.css"); ?>">
     <link rel="stylesheet" href="<?php echo assets("css/report.css"); ?>">
 </head>
 
