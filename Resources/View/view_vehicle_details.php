@@ -99,7 +99,7 @@
                 <input type="hidden" name="parking_charges" value="<?= $total_charge; ?>">
                 <p>
                     <strong>In Time : </strong>
-                    <small><?= $value['vehicle_intime']; ?></small>
+                    <small><?= date('d / m / Y - h:i A',strtotime($value['vehicle_intime'])); ?></small>
                 </p>
                 <br>
                 <p>
