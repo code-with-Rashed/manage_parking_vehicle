@@ -40,25 +40,29 @@
     top: -15px;
     right: -15px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-.confirm-btn {
+.confirm-btn{
     display: block;
     margin: 20px auto 0 auto;
     background-color: tomato;
     padding: 0.3rem;
+    border: 0;
     border-radius: 4px;
     font-weight: bold;
-    text-align: center;
     font-size: 16px;
+    text-align: center;
+    text-decoration: none;
     color: #fff;
     letter-spacing: 1px;
-    text-decoration: none;
-    border: 0;
-    cursor: pointer;
     width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+.confirm-btn:hover ,.popup-close:hover{
+    background-color: rgba(200, 72, 50);
+}
 @media (max-width:500px) {
     .popup-box {
         width: 80%;

@@ -27,6 +27,11 @@
     padding: 8px 10px;
     border-radius: 4px;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.content-status a:hover {
+    background-color: #18762e;
 }
 
 .view-vehicle {
@@ -51,7 +56,6 @@ td {
 .vehicle-update-btn {
     text-align: right;
 }
-
 .vehicle-update-btn button {
     padding: 10px 16px;
     border: 0;
@@ -62,6 +66,10 @@ td {
     background-color: #D85C27;
     color: #fff;
     margin-bottom: 15px;
+    transition: 0.3s;
+}
+.vehicle-update-btn button:hover{
+    background-color: #a2461f; 
 }
 
 @media (max-width:1000px) {

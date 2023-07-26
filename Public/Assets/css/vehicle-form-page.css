@@ -27,8 +27,11 @@
     padding: 8px 10px;
     border-radius: 4px;
     font-weight: bold;
+    transition: 0.3s;
 }
-
+.content-status a:hover{
+    background-color: #1b722f;
+}
 .vehicle-form {
     width: 96%;
     margin: 20px auto;
@@ -61,6 +64,10 @@ select {
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
+}
+.form-submit-box input[type="submit"]:hover{
+    background-color: #bd5021;
 }
 
 @media (max-width:700px) {

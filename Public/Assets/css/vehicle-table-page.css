@@ -27,6 +27,10 @@
     padding: 8px 10px;
     border-radius: 4px;
     font-weight: bold;
+    transition: 0.3s;
+}
+.content-status a:hover{
+    background-color: #080a0aca;
 }
 
 .content-print-search {
@@ -94,10 +98,17 @@
 
 .edit-btn {
     background-color: blue;
+    transition: 0.3s;
 }
-
+.edit-btn:hover{
+    background-color: rgb(12, 12, 161);
+}
 .delete-btn {
     background-color: red;
+    transition: 0.3s;
+}
+.delete-btn:hover{
+    background-color: rgb(173, 15, 15);
 }
 
 .content-pagination {
